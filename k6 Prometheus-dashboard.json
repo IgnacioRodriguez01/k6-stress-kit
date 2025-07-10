@@ -31,7 +31,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -114,7 +114,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -138,7 +138,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -221,7 +221,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -242,7 +242,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -410,7 +410,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -427,7 +427,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -461,7 +461,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -647,7 +647,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -663,7 +663,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -680,7 +680,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -697,7 +697,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -714,7 +714,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "disableTextWrap": false,
           "editorMode": "builder",
@@ -736,7 +736,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -814,7 +814,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(irate(k6_data_sent_total{testid=~\"$testid\"}[$__rate_interval]))",
@@ -826,7 +826,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -844,7 +844,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -935,7 +935,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_iteration_duration_$quantile_stat{testid=~\"$testid\"})",
@@ -947,7 +947,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -978,7 +978,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1025,7 +1025,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "sum(k6_http_reqs_total{testid=~\"$testid\"})",
@@ -1041,7 +1041,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1089,7 +1089,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "sum(k6_http_reqs_total{testid=~\"$testid\", expected_response=\"false\"})",
@@ -1105,7 +1105,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1152,7 +1152,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "sum(irate(k6_http_reqs_total{testid=~\"$testid\"}[$__rate_interval]))",
@@ -1175,7 +1175,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "description": "Select a different Stat to change the query",
       "fieldConfig": {
@@ -1223,7 +1223,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_duration_$quantile_stat{testid=~\"$testid\"})",
@@ -1239,7 +1239,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "description": "Select a different Stat to change the query\n\n<a href=\"https://k6.io/docs/using-k6/metrics/reference/#http\" target=\"_blank\">HTTP-specific built-in metrics</a>",
       "fieldConfig": {
@@ -1334,7 +1334,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_blocked_$quantile_stat{testid=~\"$testid\"})",
@@ -1347,7 +1347,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_tls_handshaking_$quantile_stat{testid=~\"$testid\"})",
@@ -1360,7 +1360,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_sending_$quantile_stat{testid=~\"$testid\"})",
@@ -1373,7 +1373,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_waiting_$quantile_stat{testid=~\"$testid\"})",
@@ -1386,7 +1386,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_receiving_$quantile_stat{testid=~\"$testid\"})",
@@ -1399,7 +1399,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_duration_$quantile_stat{testid=~\"$testid\"})",
@@ -1416,7 +1416,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "description": "Select a different Stat to change the query",
       "fieldConfig": {
@@ -1557,7 +1557,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_duration_$quantile_stat{testid=~\"$testid\"})",
@@ -1570,7 +1570,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_duration_$quantile_stat{testid=~\"$testid\", expected_response=\"true\"})",
@@ -1582,7 +1582,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(k6_http_req_duration_$quantile_stat{testid=~\"$testid\", expected_response=\"false\"})",
@@ -1599,7 +1599,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "description": "",
       "fieldConfig": {
@@ -1755,7 +1755,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "sum(irate(k6_http_reqs_total{testid=~\"$testid\"}[$__rate_interval]))",
@@ -1767,7 +1767,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "sum(irate(k6_http_reqs_total{testid=~\"$testid\", expected_response=\"false\"}[$__rate_interval]))",
@@ -1780,7 +1780,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "sum(irate(k6_http_reqs_total{testid=~\"$testid\", expected_response=\"true\"}[$__rate_interval]))",
@@ -1797,7 +1797,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "description": "min/max/p95/p99 depends on the available Quantile Stats",
       "fieldConfig": {
@@ -1935,7 +1935,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg by(name, method, status) (k6_http_req_duration_min{testid=~\"$testid\"})",
@@ -1949,7 +1949,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg by(name, method, status) (k6_http_req_duration_max{testid=~\"$testid\"})",
@@ -1963,7 +1963,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg by(name, method, status) (k6_http_req_duration_p95{testid=~\"$testid\"})",
@@ -1977,7 +1977,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg by(name, method, status) (k6_http_req_duration_p99{testid=~\"$testid\"})",
@@ -2085,7 +2085,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2184,7 +2184,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2261,7 +2261,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "berbdh1o8jvuoc"
+        "uid": "${datasource}"
       },
       "description": "Filter by check name to query a particular check",
       "fieldConfig": {
@@ -2342,7 +2342,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "aebo9x47ahvk0f"
+            "uid": "${datasource}"
           },
           "editorMode": "code",
           "expr": "avg(round(k6_checks_rate{testid=~\"$testid\"}, 0.1)*100)",
@@ -2354,31 +2354,6 @@
       ],
       "title": "Checks Success Rate (aggregate individual checks)",
       "type": "timeseries"
-    },
-    {
-      "fieldConfig": {
-        "defaults": {},
-        "overrides": []
-      },
-      "gridPos": {
-        "h": 5,
-        "w": 24,
-        "x": 0,
-        "y": 57
-      },
-      "id": 23,
-      "options": {
-        "code": {
-          "language": "plaintext",
-          "showLineNumbers": false,
-          "showMiniMap": false
-        },
-        "content": "### Visualize other k6 results  \n\nAt the top of the dashboard, click `Add` and select `Visualization` from the dropdown menu. Choose the visualization type and input the PromQL queries for the `k6_` metric(s).\n\nAlternatively, click on the `Explore` icon on the menu bar and input the queries for the `k6_` metric(s). From `Explore`, you can add new Panels to this dashboard. \n\nNote that all <a href=\"https://k6.io/docs/using-k6/metrics/\" target=\"_blank\">k6 metrics</a> are prefixed with the `k6_` namespace when sent to Prometheus.",
-        "mode": "markdown"
-      },
-      "pluginVersion": "12.0.2",
-      "title": "",
-      "type": "text"
     }
   ],
   "preload": false,
@@ -2393,12 +2368,9 @@
       {
         "current": {
           "text": "prometheus",
-          "value": "berbdh1o8jvuoc"
+          "value": "beripgbr1k7i8b"
         },
-        "description": "Choose a Prometheus Data Source",
-        "includeAll": false,
-        "label": "Prometheus DS",
-        "name": "DS_PROMETHEUS",
+        "name": "datasource",
         "options": [],
         "query": "prometheus",
         "refresh": 1,
@@ -2506,5 +2478,5 @@
   "timezone": "",
   "title": "k6 Prometheus",
   "uid": "ccbb2351-2ae2-462f-ae0e-f2c893ad1028",
-  "version": 3
+  "version": 2
 }
